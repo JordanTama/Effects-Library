@@ -1,0 +1,8 @@
+{
+  "name": "com.jordantama.effects.pointcloud",
+  "version": "0.0.1",
+  "displayName": "Point Cloud",
+  "type": "library",
+  "unity": "2020.3",
+  "unityRelease": "0f1"
+}
