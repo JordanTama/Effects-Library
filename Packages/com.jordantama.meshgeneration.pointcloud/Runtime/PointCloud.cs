@@ -1,4 +1,4 @@
-﻿using System;
+﻿using Unity.Collections;
 using UnityEngine;
 
 namespace PointCloud
@@ -24,7 +24,8 @@ namespace PointCloud
             Initialise();
             
             // TODO: Execute...
-            mesh = new Mesh();
+            NativeArray<Vector3> origins = new NativeArray<Vector3>(numRays, Allocator.TempJob);
+            
         }
 
         public override void Save()
