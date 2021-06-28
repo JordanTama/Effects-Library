@@ -1,3 +1,16 @@
 {
-	"name": "com.jordantama.effects.pointcloud"
+    "name": "com.jordantama.effects.pointcloud",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6d8de62ee80cb7745a18cf48ee6862dd"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }

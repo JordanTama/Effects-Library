@@ -1,0 +1,9 @@
+{
+  "name": "com.jordantama.vfx.spells",
+  "version": "0.0.1",
+  "displayName": "Spells",
+  "type": "library",
+  "unity": "2020.3",
+  "unityRelease": "0f1",
+  "description": "Spells and incantations for those with the talent to cast them."
+}
