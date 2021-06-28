@@ -1,7 +1,7 @@
 {
-  "name": "com.jordantama.effects.pointcloud",
+  "name": "com.jordantama.meshgeneration",
   "version": "0.0.1",
-  "displayName": "Point Cloud",
+  "displayName": "Mesh Generation",
   "type": "library",
   "unity": "2020.3",
   "unityRelease": "0f1"

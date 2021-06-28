@@ -1,0 +1,12 @@
+{
+  "name": "com.jordantama.meshgeneration.pointcloud",
+  "version": "0.0.1",
+  "displayName": "Point Cloud",
+  "type": "library",
+  "unity": "2020.3",
+  "unityRelease": "0f1",
+  "dependencies": {
+    "com.jordantama.meshgeneration": "0.0.1"
+  },
+  "description": "Generate point clouds."
+}
