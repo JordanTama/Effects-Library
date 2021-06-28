@@ -6,12 +6,6 @@
       "source": "embedded",
       "dependencies": {}
     },
-    "com.jordantama.vfx.spells": {
-      "version": "file:com.jordantama.vfx.spells",
-      "depth": 0,
-      "source": "embedded",
-      "dependencies": {}
-      },
     "com.jordantama.meshgeneration.pointcloud": {
       "version": "file:com.jordantama.meshgeneration.pointcloud",
       "depth": 0,
@@ -19,6 +13,12 @@
       "dependencies": {
         "com.jordantama.meshgeneration": "0.0.1"
       }
+    },
+    "com.jordantama.vfx.spells": {
+      "version": "file:com.jordantama.vfx.spells",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
     },
     "com.unity.collab-proxy": {
       "version": "1.3.9",
