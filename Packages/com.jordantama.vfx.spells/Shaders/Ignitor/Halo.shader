@@ -21,6 +21,7 @@ Shader "Spells/Ignitor/Halo"
         Pass
         {
 			Blend SrcAlpha OneMinusSrcAlpha
+			ZWrite Off
 
             CGPROGRAM
             #pragma vertex vert
