@@ -10,9 +10,6 @@ Shader "Spells/Ignitor/CorePulse"
     
     SubShader
     {
-        Tags { "RenderType"="Opaque" }
-        LOD 100
-
         Pass
         {
             CGPROGRAM
@@ -20,8 +17,10 @@ Shader "Spells/Ignitor/CorePulse"
             #pragma fragment frag
             #pragma multi_compile_fog
 
+            
             #include "UnityCG.cginc"
 
+            
             struct appdata
             {
                 float4 vertex : POSITION;
@@ -33,6 +32,7 @@ Shader "Spells/Ignitor/CorePulse"
             {
                 float4 vertex : SV_POSITION;
                 float2 uv : TEXCOORD0;
+                
                 UNITY_FOG_COORDS(1)
             };
 
@@ -67,8 +67,10 @@ Shader "Spells/Ignitor/CorePulse"
 
             fixed4 frag (v2f i) : SV_Target
             {
-                float4 col = _Col;                
+                float4 col = _Col;
+                
                 UNITY_APPLY_FOG(i.fogCoord, col);
+
                 return col;
             }
             ENDCG
